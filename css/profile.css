@@ -1,0 +1,62 @@
+/*basic style*/
+
+body {
+    font: normal normal 13px/16px "Open Sans", sans-serif;
+    background: #D3D3D3;
+}
+
+.selfIntroTitle{
+	top:0;
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background: white;
+    border-radius: 25px;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.selfIntroData{
+	left:0;
+	font-size: 15px;
+	padding: 10px;
+	background:white;
+	border-radius: 25px;
+}
+
+.WeekSchedule{
+	left:0;
+	font-size: 15px;
+	padding: 10px;
+	background: white;
+	border-radius: 25px;
+}
+.card{
+	padding: 10px;
+	margin: auto;
+	vertical-align: middle;
+	text-align: center;
+	background: white;
+	width: 400px;
+	height: fit-content;
+	border-radius: 20px;
+}
+
+.container img{
+	float: left
+}
+
+img{
+	max-height:100%;
+}
+
+tbody tr:nth-child(odd){
+  background-color: grey;
+  color: #fff;
+}
+table, th, td {
+	padding: 10px;
+    border: 1px solid black;
+}
